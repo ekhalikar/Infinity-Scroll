@@ -1,8 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    
 html {
     box-sizing: border-box;
   }
   
   body {
+    font-family: Montserrat, sans-serif;
     margin: 0;
     min-height: 100vh;
+    background: whitesmoke;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 25px auto 15px auto;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+
+  .loader {
+    /* Position fixed so loader doesn't move when you scroll up or down */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  /* Image is child of Loader Class */
+  .loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Top and Left work but it's centering the top left part of the imagine, not the center of the image itself. Transform centers it based on center of image */
+  }
+
+  .testImage {
+    margin: 10px 30%;
+  }
+
+  .testImage img{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .testImage2 {
+    margin: 10px 30%;
+  }
+
+  .testImage2 img {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /* Media Query For large Smartphone */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    .image-container {
+      margin: 10px;
+    }
   }
