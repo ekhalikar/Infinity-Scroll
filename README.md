@@ -1,7 +1,7 @@
 # Infinity-Scroll
 - The webpage pulls images from the [Unsplash Developer API](https://unsplash.com/developers) and shows them in a line where the user can scroll down to see each one.
 - As the user reaches the bottom of the page, the website will automatically pull more images using the API so that the user never reaches the bottom 
-of the page thus give the website the appearance of an Infinite Scroll. 
+of the page thus giving the website the appearance of an Infinite Scroll. 
 - The user can tell by the scrollbar getting smaller as it get closer to the
 bottom and never actually reaching the bottom of the page.
 
